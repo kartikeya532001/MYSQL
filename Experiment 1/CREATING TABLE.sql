@@ -18,7 +18,7 @@ CREATE TABLE PRODUCT_Master (
    REORDERL_VL int,
    SELLPRICE  decimaL (8,2),
    COSTPRICE decimal(10,2)
-);
+   );
 CREATE TABLE SALESMAN_Master (
   SALESMANNO varchar(10),
    SALESMANName varchar(50),
@@ -26,10 +26,5 @@ CREATE TABLE SALESMAN_Master (
    ADDRESS2 varchar(30),
    CITY varchar(15),
    PINCODE int,
-   STATE varchar(15),
-   SALAMT REAL,
-   TGTTOGET decimal(10,2),
-   YTDSALES DOUBLE(6,2),
-   REMARKS varchar(60)
-   
-);
+   STATE varchar(15)
+   );
