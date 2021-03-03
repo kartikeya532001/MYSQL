@@ -1,0 +1,2 @@
+use lab_work;
+select * FROM EMP E WHERE HIREDATE < (select HIREDATE FROM EMP WHERE EMPNO = E.MGR);
